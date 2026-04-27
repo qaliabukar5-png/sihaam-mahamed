@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('picing.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(65, 105, 225, 0.8); 
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+header p {
+    color: #fffedc;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+nav a {
+    color: #ffd700; 
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+}
+
+main h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+main p {
+    line-height: 1.8;
+    color: #f1f1f1;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.foot {
+    background-color: rgba(173, 216, 230, 0.9);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-style: italic;
+    margin-top: 50px;
+}
